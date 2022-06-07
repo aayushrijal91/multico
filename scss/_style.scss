@@ -18,6 +18,8 @@ header {
         }
 
         .banner {
+            padding: 50px 0 127px;
+
             .trusted {
                 border-radius: 20.67px;
                 background: rgba(179, 186, 197, 0.25);
@@ -40,8 +42,38 @@ header {
                 padding: 65px 0 32px;
             }
 
-            .btn {
+            .btn-banner {
                 border-radius: 0px 18.6003px 0px 0px;
+                padding: 21px 48px;
+                color: $black;
+                font-weight: 600;
+            }
+
+            .banner-testimonial-row {
+                padding-top: 132px;
+                
+                .partner-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-top: 29px;
+                    background-color: $white;
+    
+                    .description {
+                        max-height: 170px;
+                        overflow-y: scroll;
+                        margin: 0 16px;
+                        padding: 0 10.87px 0 35.87px;
+                        padding: 0 35.87px 0 19.87px;
+                        margin-bottom: 45px;
+                        line-height: 2;
+                    }
+    
+                    .title {
+                        font-size: 0.9375rem; // 15px
+                        padding: 29px 16px 13px;
+                    }
+                }
             }
         }
     }
