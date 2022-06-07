@@ -8,6 +8,14 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     });
 });
 
+$(() => {
+    $("#brands-slider").slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        arrows: false,
+    })
+})
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);

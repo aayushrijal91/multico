@@ -51,7 +51,7 @@ header {
 
             .banner-testimonial-row {
                 padding-top: 132px;
-                
+
                 .partner-card {
                     display: flex;
                     flex-direction: column;
@@ -75,6 +75,31 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+section.brands {
+    background-color: $dark;
+
+    .horizontal-line {
+        height: 1px;
+        background: $white;
+        width: 100%;
+    }
+
+    .brands-slider {
+        padding-top: 46px;
+
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
