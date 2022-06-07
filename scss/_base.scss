@@ -9,14 +9,9 @@ body {
     padding: 0;
 }
 
-.btn {
-    border-radius: 16.64px;
-    filter: drop-shadow(0px 0px 25px #000000);
-    
-    &:focus {
-        box-shadow: none;
-        outline: 0;
-    }
+.btn:focus {
+    box-shadow: none;
+    outline: 0;
 }
 
 // Rounded buttons

@@ -1,15 +1,17 @@
-$primary: #FBD202;
-$secondary: #FB0202;
-$tertiary: #3729C2;
-$dark: #1B1819;
+$primary: #fbd202;
+$secondary: #fb0202;
+$tertiary: #3729c2;
+$grey: #b3bac5;
+$dark: #1b1819;
 $light: #e5e5e5;
-$black: #0E0E0E;
+$black: #0e0e0e;
 $white: #ffffff;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
     (
         "tertiary": $tertiary,
+        "grey": $grey,
         "black": $black,
         "white": $white,
     ),
