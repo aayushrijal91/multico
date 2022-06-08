@@ -209,17 +209,12 @@ include __DIR__ . '/header.php';
                         <label for="service">Service Required</label>
                         <select name="service" class="form-control rounded-0 bg-white" required>
                             <option value="" disabled selected>Choose an option</option>
-                            <option>Curtains</option>
-                            <option>Outdoor Roller Blinds</option>
-                            <option>Vertical Blinds</option>
-                            <option>Roller Blinds</option>
-                            <option>Panel Glides</option>
-                            <option>Roman Blinds</option>
-                            <option>Venetian Blinds</option>
-                            <option>Veri Shades</option>
-                            <option>Plantation Shutters</option>
-                            <option>Zebra Blinds</option>
-                            <option>Motorised Blinds</option>
+                            <option>Switchboard Installations/Upgrades</option>
+                            <option>LED lighting upgrades and installation</option>
+                            <option>Smoke Alarms</option>
+                            <option>Electric Vehicle Charging Stations</option>
+                            <option>House Lighting Installation & Repair</option>
+                            <option>House Rewiring</option>
                         </select>
                     </div>
                 </div>
