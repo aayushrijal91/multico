@@ -1,8 +1,8 @@
 <footer>
 	<div class="container">
-		<div class="row justify-content-center justify-content-md-between align-items-center">
-			<div class="col-12 col-lg-auto">
-				<div class="row no-gutters mb-3 mb-md-0 justify-content-center align-items-center">
+		<div class="row justify-content-center justify-content-md-between justify-content-lg-center justify-content-xl-between align-items-center">
+			<div class="col-12 col-xl-auto">
+				<div class="row no-gutters mb-3 mb-md-0 justify-content-center justify-content-lg-between align-items-center">
 					<div class="py-2 py-md-0 col-5 col-md-12 col-lg-auto pr-4 pr-xl-5 text-center pb-md-4 pb-lg-0"><?= renderImg("footer-logo.png", "logo") ?></div>
 					<div class="py-2 py-md-0 col-auto text-center">Copyright <?= date('Y') ?></div>
 					<div class="py-2 py-md-0 col-auto px-2 px-md-4 text-primary">|</div>
@@ -12,8 +12,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-auto pt-md-4 pt-lg-0">
-				<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
+			<div class="col-12 col-lg-auto pt-md-4 pt-xl-0">
+				<div class="row no-gutters justify-content-center justify-content-xl-end align-items-center">
 					<div class="col-12 col-md-auto">
 						<div class="row no-gutters justify-content-center">
 							<div class="col-auto"><u>Terms &amp; Conditions</u></div>
