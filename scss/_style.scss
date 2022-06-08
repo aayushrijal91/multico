@@ -80,8 +80,6 @@ header {
 }
 
 section.brands {
-    background-color: $dark;
-
     .horizontal-line {
         height: 1px;
         background: $white;
@@ -101,6 +99,30 @@ section.brands {
             align-items: center;
             justify-content: center;
         }
+    }
+}
+
+section.about {
+    padding: 145px 0;
+
+    .about-img {
+        border-radius: 0px 71.6869px 0px 0px;
+    }
+
+    .about-content {
+        padding-right: 20px;
+
+        .description {
+            line-height: 2;
+            padding: 35px 0;
+        }
+    }
+
+    .btn-about {
+        border-radius: 0px 18.6003px 0px 0px;
+        padding: 21px 48px;
+        color: $black;
+        font-weight: 600;
     }
 }
 
