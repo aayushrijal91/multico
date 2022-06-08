@@ -115,7 +115,7 @@
 								<?= renderImg("prd.png", "logo") ?>
 								<div class="title"><span class="fw-800">Caitlin Galvin Senior Property Manager</span> at PRD Oatley</div>
 								<div class="description">
-									“Jesse and the team at Multi Co Electrical have been a pleasure assisting our rental portfolio at PRD Oatley. When scheduling work orders, Jesse calls the tenant promptly to arrange a time. We then receive confirmation from Jesse that a time has been arranged with both the tenant and Multi Co to carry out the
+								“Jesse and the team at Multi Co Electrical have been a pleasure assisting our rental portfolio at PRD Oatley. When scheduling work orders, Jesse calls the tenant promptly to arrange a time. We then receive confirmation from Jesse that a time has been arranged with both the tenant and Multi Co to carry out the works. The quality of reports after works have been completed as well as the quotes are flawless and many of our owners are very impressed with the communication and awareness of the issues and repairs being made at their investment properties. If you require an electrician with constant communication, transparency, efficiency and quality work, Multi Co are the people to call.”
 								</div>
 								<a href="./" class="btn btn-block btn-secondary rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
 							</div>

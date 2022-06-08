@@ -68,7 +68,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
@@ -125,14 +125,14 @@ include __DIR__ . '/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="service-card">
                     <?= renderImg("house-rewiring.jpg", "lib", "w-100") ?>
-                    <div class="title">House Lighting Installation &amp; Repair</div>
+                    <div class="title">House Rewiring</div>
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
-                                <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
+                                <a href="#form" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
                             </div>
                         </div>
                     </div>
