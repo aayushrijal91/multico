@@ -10,6 +10,10 @@ header {
             background: imgUrl("banner.png") right top;
         }
 
+        @include media-breakpoint-only(xl) {
+            background-size: 48%;
+        }
+
         .header-top-bar {
             padding: 51px 0;
 
@@ -141,6 +145,10 @@ section.about {
     .about-content {
         padding-right: 20px;
 
+        @include media-breakpoint-down(xl) {
+            padding: 0 24px;
+        }
+
         @include media-breakpoint-down(md) {
             padding: 48px 24px;
         }
@@ -211,6 +219,10 @@ section.service {
         padding: 64px 0;
 
         @include media-breakpoint-up(lg) {
+            padding: 80px 0;
+        }
+
+        @include media-breakpoint-up(xxl) {
             padding: 160.455px 0 140.23px;
         }
 

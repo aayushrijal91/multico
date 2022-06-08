@@ -30,7 +30,7 @@ include __DIR__ . '/header.php';
             <div class="col-lg-6">
                 <?= renderImg("about.png", "background", "about-img") ?>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-6 col-xxl-5">
                 <div class="about-content">
                     <div class="fw-700 h3 text-white letter-spacing-n1">As Premier Electrical Contractors, we are committed to delivering customer service that is second to none.</div>
                     <div class="h15 description">
@@ -52,8 +52,8 @@ include __DIR__ . '/header.php';
 <section class="service">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-10 fw-600 h4 text-white text-center">We offer a wide range of services to meet your residential and commercial electrical needs. <span class="fw-900">Big job or small, we have you covered.</span></div>
-            <div class="col-xl-9 text-white h10 text-center line-height-2 fw-400 py-5">
+            <div class="col-xl-11 col-xxl-10 fw-600 h4 text-white text-center">We offer a wide range of services to meet your residential and commercial electrical needs. <span class="fw-900">Big job or small, we have you covered.</span></div>
+            <div class="col-xl-10 col-xxl-9 text-white h10 text-center line-height-2 fw-400 py-5">
                 <span class="fw-700 text-primary">Multi Co Electrical aims to raise the standards in the trade service industry.</span> Time & time again we have heard complaints of unreliable trades, lack of communication & no care factor to what clients need. <span class="fw-900">We <u>will</u> ensure</span> you have a memorable experience each & every time.
             </div>
         </div>

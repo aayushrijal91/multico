@@ -49,7 +49,7 @@
 			<div class="header-top-bar">
 				<div class="container">
 					<div class="row justify-content-center justify-content-lg-between align-items-center">
-						<div class="col-9 col-md-6 col-lg-auto">
+						<div class="col-9 col-md-6 col-lg-4 col-xxl-auto">
 							<a href="./">
 								<?= renderImg("logo.png", "logo") ?>
 							</a>
@@ -77,7 +77,7 @@
 			<div class="banner">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-lg-6 col-xl-6">
+						<div class="col-12 col-lg-7 col-xxl-6">
 							<div class="row no-gutters align-items-center">
 								<div class="col-auto">
 									<div class="trusted">
