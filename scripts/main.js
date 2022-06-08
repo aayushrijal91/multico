@@ -13,13 +13,21 @@ $(() => {
         slidesToShow: 8,
         slidesToScroll: 1,
         arrows: false,
-        responsive: [{
-            breakpoint: 540,
-            settings: {
-                slidesToShow: 2,
-                autoplay: true,
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    autoplay: true,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 2,
+                }
             }
-        }]
+        ]
     })
 })
 

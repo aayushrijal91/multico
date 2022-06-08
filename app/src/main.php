@@ -27,10 +27,10 @@ include __DIR__ . '/header.php';
 <section class="about">
     <div class="container-fluid px-0">
         <div class="row no-gutters align-items-end">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <?= renderImg("about.png", "background", "about-img") ?>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="about-content">
                     <div class="fw-700 h3 text-white letter-spacing-n1">As Premier Electrical Contractors, we are committed to delivering customer service that is second to none.</div>
                     <div class="h15 description">
@@ -65,7 +65,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -81,7 +81,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -97,7 +97,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -113,7 +113,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -129,7 +129,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -145,7 +145,7 @@ include __DIR__ . '/header.php';
                     <div class="buttons">
                         <div class="row no-gutters">
                             <div class="col-6 border-right">
-                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
+                                <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Out More</a>
                             </div>
                             <div class="col-6">
                                 <a href="./" class="btn btn-block text-primary h12 fw-900 line-height-1 py-4">Require Service</a>
@@ -158,19 +158,19 @@ include __DIR__ . '/header.php';
 
         <div class="cta-wrapper">
             <div class="row">
-                <div class="col-md-4 py-3 py-md-0">
+                <div class="col-lg-4 py-3 py-lg-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">Customer Satisfaction Guaranteed</div>
                         <div class="fw-500 h15 pt-3">We work around your busy schedule & consult with you on all aspects of your project</div>
                     </div>
                 </div>
-                <div class="col-md-4 py-3 py-md-0">
+                <div class="col-lg-4 py-3 py-lg-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">We strive to be Honest, Reliable &amp; Transparent.</div>
                         <div class="fw-500 h15 pt-3">When it comes to our service to ensure you get the best possible product.</div>
                     </div>
                 </div>
-                <div class="col-md-4 py-3 py-md-0">
+                <div class="col-lg-4 py-3 py-lg-0">
                     <div class="cta-card">
                         <div class="h5 fw-700 text-center line-height-1">We Care About the Details.</div>
                         <div class="fw-500 h15 pt-3">Big job or small, we have you covered.</div>
@@ -185,7 +185,7 @@ include __DIR__ . '/header.php';
     <div class="container">
         <div class="form-wrapper">
             <div class="bg-primary btn rounded-0 h19 fw-600">Book Online</div>
-            <div class="fw-700 h2 text-black py-2">Book now & receive a <span class="fw-900">free electrical safety inspection</span> valued at $200</div>
+            <div class="fw-700 h2 text-black py-3 py-lg-2">Book now & receive a <span class="fw-900">free electrical safety inspection</span> valued at $200</div>
             <form action="./src/form" method="POST" class="pt-2">
                 <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                 <div class="row no-gutters pb-3">
@@ -237,15 +237,19 @@ include __DIR__ . '/header.php';
                             &amp; secure
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3">
-                        <button type="submit" class="btn btn-primary text-black form-control rounded-0 h19 fw-800">
-                            Submit
-                        </button>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <a href="tel: <?= $phone_number ?>" class="btn btn-black text-white form-control rounded-0 h19 fw-800 d-flex align-items-center justify-content-center">
-                            Call Us Now
-                        </a>
+                    <div class="col-12 col-lg-6">
+                        <div class="row no-gutters">
+                            <div class="col-6 px-md-3">
+                                <button type="submit" class="btn btn-primary text-black form-control rounded-0 h19 fw-800">
+                                    Submit
+                                </button>
+                            </div>
+                            <div class="col-6 px-md-3">
+                                <a href="tel: <?= $phone_number ?>" class="btn btn-black text-white form-control rounded-0 h19 fw-800 d-flex align-items-center justify-content-center">
+                                    Call Us Now
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </form>

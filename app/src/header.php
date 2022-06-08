@@ -49,23 +49,23 @@
 			<div class="header-top-bar">
 				<div class="container">
 					<div class="row justify-content-center justify-content-lg-between align-items-center">
-						<div class="col-9 col-md-auto">
+						<div class="col-9 col-md-6 col-lg-auto">
 							<a href="./">
 								<?= renderImg("logo.png", "logo") ?>
 							</a>
 						</div>
-						<div class="col-12 col-md-auto pt-4 pt-md-0">
+						<div class="col-12 col-lg-auto pt-4 pt-lg-0">
 							<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-								<div class="col-6 col-md-auto pr-2 pr-md-4">
-									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-3 py-md-4 px-md-5 fw-800 h8 d-md-none">
+								<div class="col-6 col-lg-auto pr-2 pr-lg-4">
+									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-3 px-md-5 fw-800 h8 d-lg-none">
 										Is it an Emergency?
 									</a>
-									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-3 py-md-4 px-md-5 fw-600 h8 d-none d-md-block">
+									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-3 py-md-4 px-md-5 fw-600 h8 d-none d-lg-block">
 										Do You need <span class="fw-800">Emergency Service?</span>
 									</a>
 								</div>
-								<div class="col-6 col-md-auto pl-2 pl-md-4">
-									<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-primary text-black py-3 py-md-4 px-md-5 fw-900 h8">
+								<div class="col-6 col-lg-auto pl-2 pl-lg-4">
+									<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-primary text-black py-3 py-lg-4 px-md-5 fw-900 h8">
 										<?= $phone_number ?>
 									</a>
 								</div>
@@ -77,7 +77,7 @@
 			<div class="banner">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-md-6 col-xl-6">
+						<div class="col-12 col-lg-6 col-xl-6">
 							<div class="row no-gutters align-items-center">
 								<div class="col-auto">
 									<div class="trusted">
