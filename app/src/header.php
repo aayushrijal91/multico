@@ -57,10 +57,10 @@
 						<div class="col-12 col-lg-auto pt-4 pt-lg-0">
 							<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
 								<div class="col-6 col-lg-auto pr-2 pr-xl-4">
-									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-3 px-md-5 fw-800 h8 d-xl-none">
+									<a href="#form" class="btn btn-block btn-secondary text-white py-3 px-md-5 fw-800 h8 d-xl-none">
 										Is it an Emergency?
 									</a>
-									<a href="#form-quote" class="btn btn-block btn-secondary text-white py-4 px-md-5 fw-600 h8 d-none d-xl-block">
+									<a href="#form" class="btn btn-block btn-secondary text-white py-4 px-md-5 fw-600 h8 d-none d-xl-block">
 										Do You need <span class="fw-800">Emergency Service?</span>
 									</a>
 								</div>
@@ -117,7 +117,7 @@
 								<div class="description">
 									“Jesse and the team at Multi Co Electrical have been a pleasure assisting our rental portfolio at PRD Oatley. When scheduling work orders, Jesse calls the tenant promptly to arrange a time. We then receive confirmation from Jesse that a time has been arranged with both the tenant and Multi Co to carry out the
 								</div>
-								<a href="#testimonials" class="btn btn-block btn-secondary rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
+								<a href="./" class="btn btn-block btn-secondary rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-4 py-2 py-lg-0">
@@ -128,7 +128,7 @@
 									<p>Jesse and his team are very reliable and affordable. We have used them numerous times and I highly recommend them for small or big jobs.</p>
 									<p>The work was done professionally and communication was key at all times. Services was 10/10”.</p>
 								</div>
-								<a href="#testimonials" class="btn btn-block btn-blue rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
+								<a href="./" class="btn btn-block btn-blue rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-4 py-2 py-lg-0">
@@ -139,7 +139,7 @@
 									<p>“Jesse and the team have always been a pleasure to deal with. His efficient, timely communication and ethical way of working has always been a pleasure to deal with.</p>
 									<p>I would have no hesitations when recommending him to my family, friends and clients.”</p>
 								</div>
-								<a href="#testimonials" class="btn btn-block btn-green rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
+								<a href="./" class="btn btn-block btn-green rounded-0 text-white h20 line-height-1 py-3 fw-700">See More Testimonials</a>
 							</div>
 						</div>
 					</div>
