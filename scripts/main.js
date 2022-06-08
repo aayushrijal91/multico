@@ -15,6 +15,13 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                    autoplay: true,
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 3,

@@ -128,7 +128,7 @@ h7,
 .h12 {
     font-size: 1.2525rem; // 20.04px
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
         font-size: 1rem;
     }
 

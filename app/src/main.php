@@ -27,10 +27,10 @@ include __DIR__ . '/header.php';
 <section class="about">
     <div class="container-fluid px-0">
         <div class="row no-gutters align-items-end">
-            <div class="col-lg-6">
+            <div class="col-xl-6">
                 <?= renderImg("about.png", "background", "about-img") ?>
             </div>
-            <div class="col-lg-6 col-xxl-5">
+            <div class="col-xl-6 col-xxl-5">
                 <div class="about-content">
                     <div class="fw-700 h3 text-white letter-spacing-n1">As Premier Electrical Contractors, we are committed to delivering customer service that is second to none.</div>
                     <div class="h15 description">
@@ -157,20 +157,20 @@ include __DIR__ . '/header.php';
         </div>
 
         <div class="cta-wrapper">
-            <div class="row">
-                <div class="col-lg-4 py-3 py-lg-0">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-xl-4 py-3 py-xl-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">Customer Satisfaction Guaranteed</div>
                         <div class="fw-500 h15 pt-3">We work around your busy schedule & consult with you on all aspects of your project</div>
                     </div>
                 </div>
-                <div class="col-lg-4 py-3 py-lg-0">
+                <div class="col-lg-6 col-xl-4 py-3 py-xl-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">We strive to be Honest, Reliable &amp; Transparent.</div>
                         <div class="fw-500 h15 pt-3">When it comes to our service to ensure you get the best possible product.</div>
                     </div>
                 </div>
-                <div class="col-lg-4 py-3 py-lg-0">
+                <div class="col-lg-6 col-xl-4 py-3 py-xl-0">
                     <div class="cta-card">
                         <div class="h5 fw-700 text-center line-height-1">We Care About the Details.</div>
                         <div class="fw-500 h15 pt-3">Big job or small, we have you covered.</div>
