@@ -13,6 +13,13 @@ $(() => {
         slidesToShow: 8,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [{
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 2,
+                autoplay: true,
+            }
+        }]
     })
 })
 

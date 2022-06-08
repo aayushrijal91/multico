@@ -6,7 +6,9 @@ header {
     background: imgUrl("header.png") left top $dark;
 
     .header-inner {
-        background: imgUrl("banner.png") right top;
+        @include media-breakpoint-up(md) {
+            background: imgUrl("banner.png") right top;
+        }
 
         .header-top-bar {
             padding: 51px 0;
@@ -18,7 +20,11 @@ header {
         }
 
         .banner {
-            padding: 50px 0 127px;
+            padding: 50px 0 80px;
+
+            @include media-breakpoint-up(md) {
+                padding: 50px 0 127px;
+            }
 
             .trusted {
                 border-radius: 20.67px;
@@ -35,6 +41,11 @@ header {
                     font-weight: 800;
                     margin-right: 11px;
                 }
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.775rem;
+                    padding: 5.17px 11px 5.17px 5.17px;
+                }
             }
 
             .hero-heading {
@@ -44,13 +55,21 @@ header {
 
             .btn-banner {
                 border-radius: 0px 18.6003px 0px 0px;
-                padding: 21px 48px;
                 color: $black;
                 font-weight: 600;
+                padding: 21px 48px;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 16px;
+                }
             }
 
             .banner-testimonial-row {
-                padding-top: 132px;
+                padding-top: 60px;
+
+                @include media-breakpoint-up(md) {
+                    padding-top: 132px;
+                }
 
                 .partner-card {
                     display: flex;
@@ -63,15 +82,21 @@ header {
                         max-height: 170px;
                         overflow-y: scroll;
                         margin: 0 16px;
-                        padding: 0 10.87px 0 35.87px;
                         padding: 0 35.87px 0 19.87px;
                         margin-bottom: 45px;
                         line-height: 2;
+                        font-size: 0.875rem;
+
+                        @include media-breakpoint-down(sm) {
+                            padding: 0 16px 0 0;
+                            margin-bottom: 24px;
+                        }
                     }
 
                     .title {
                         font-size: 0.9375rem; // 15px
                         padding: 29px 16px 13px;
+                        text-align: center;
                     }
                 }
             }
@@ -103,14 +128,22 @@ section.brands {
 }
 
 section.about {
-    padding: 145px 0;
+    padding: 80px 0;
 
-    .about-img {
-        border-radius: 0px 71.6869px 0px 0px;
+    @include media-breakpoint-up(md) {
+        padding: 145px 0;
+
+        .about-img {
+            border-radius: 0px 71.6869px 0px 0px;
+        }
     }
 
     .about-content {
         padding-right: 20px;
+
+        @include media-breakpoint-down(sm) {
+            padding: 24px 16px;
+        }
 
         .description {
             line-height: 2;
@@ -119,20 +152,29 @@ section.about {
     }
 
     .btn-about {
-        border-radius: 0px 18.6003px 0px 0px;
         padding: 21px 48px;
         color: $black;
         font-weight: 600;
+        border-radius: 0px 18.6003px 0px 0px;
+
+        @include media-breakpoint-down(sm) {
+            padding: 16px;
+        }
     }
 }
 
 section.service {
     padding: 34px 0;
+    background: imgUrl("service.png") right 35%;
 
     .service-card {
         background-color: $white;
         border-radius: 0 0 20px 20px;
-        margin: 37.775px 0;
+        margin: 16px 0;
+
+        @include media-breakpoint-up(md) {
+            margin: 37.775px 0;
+        }
 
         .title {
             min-height: 100px;
@@ -145,6 +187,7 @@ section.service {
             font-size: 1.4375rem; // 23px
 
             @include media-breakpoint-down(sm) {
+                min-height: 66px;
                 font-size: 1rem;
             }
         }
@@ -155,7 +198,11 @@ section.service {
     }
 
     .cta-wrapper {
-        padding: 160.455px 0 140.23px;
+        padding: 64px 0;
+
+        @include media-breakpoint-up(md) {
+            padding: 160.455px 0 140.23px;
+        }
 
         .cta-card {
             background: linear-gradient(180deg, #171717 0%, #000000 100%);
@@ -185,12 +232,20 @@ section.service {
 section.form {
     background: imgUrl("form.jpg");
     background-size: cover;
-    padding: 164px 0;
+    padding: 80px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 164px 0;
+    }
 
     .form-wrapper {
         background-color: $white;
         box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.4);
-        padding: 40px 67px 64px;
+        padding: 40px 24px;
+
+        @include media-breakpoint-up(md) {
+            padding: 40px 67px 64px;
+        }
 
         form {
             label {
@@ -202,7 +257,7 @@ section.form {
                     font-size: 1rem;
                 }
             }
-            
+
             input,
             select {
                 min-height: 65px;
@@ -210,19 +265,28 @@ section.form {
                 color: $black;
                 padding: 6px 30px;
                 font-weight: 500;
-                
+
                 &:focus {
                     box-shadow: none;
                     outline: none;
                 }
-                
-                &::placeholder, option {
+
+                &::placeholder,
+                option {
                     opacity: 0.6;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    min-height: 50px;
                 }
             }
 
             .btn {
                 min-height: 61px;
+
+                @include media-breakpoint-down(sm) {
+                    min-height: 50px;
+                }
             }
         }
     }

@@ -5,11 +5,11 @@ h1,
     margin-bottom: 0;
 
     @include media-breakpoint-down(md) {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 }
 
@@ -85,7 +85,7 @@ h7,
     font-size: 1.386875rem; // 22.19px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -93,7 +93,7 @@ h7,
     font-size: 1.33625rem; // 21.38px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -101,7 +101,7 @@ h7,
     font-size: 1.3125rem; // 21px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -109,7 +109,7 @@ h7,
     font-size: 1.27375rem; // 20.38px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -125,7 +125,7 @@ h7,
     font-size: 1.213125rem; // 19.41px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -141,7 +141,7 @@ h7,
     font-size: 1.125rem; // 18px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }
 

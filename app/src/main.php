@@ -27,10 +27,10 @@ include __DIR__ . '/header.php';
 <section class="about">
     <div class="container-fluid px-0">
         <div class="row no-gutters align-items-end">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?= renderImg("about.png", "background", "about-img") ?>
             </div>
-            <div class="col-5">
+            <div class="col-md-5">
                 <div class="about-content">
                     <div class="fw-700 h3 text-white letter-spacing-n1">As Premier Electrical Contractors, we are committed to delivering customer service that is second to none.</div>
                     <div class="h15 description">
@@ -64,7 +64,7 @@ include __DIR__ . '/header.php';
                     <div class="title">Switchboard Installations &amp; Upgrades</div>
                     <div class="buttons">
                         <div class="row no-gutters">
-                            <div class="col-6">
+                            <div class="col-6 border-right">
                                 <a href="#form" class="btn btn-block text-black h12 fw-700 line-height-1 py-4">Find Our More</a>
                             </div>
                             <div class="col-6">
@@ -158,19 +158,19 @@ include __DIR__ . '/header.php';
 
         <div class="cta-wrapper">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 py-3 py-md-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">Customer Satisfaction Guaranteed</div>
                         <div class="fw-500 h15 pt-3">We work around your busy schedule & consult with you on all aspects of your project</div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 py-3 py-md-0">
                     <div class="cta-card">
                         <div class="h5 fw-700">We strive to be Honest, Reliable &amp; Transparent.</div>
                         <div class="fw-500 h15 pt-3">When it comes to our service to ensure you get the best possible product.</div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 py-3 py-md-0">
                     <div class="cta-card">
                         <div class="h5 fw-700 text-center line-height-1">We Care About the Details.</div>
                         <div class="fw-500 h15 pt-3">Big job or small, we have you covered.</div>
@@ -193,19 +193,19 @@ include __DIR__ . '/header.php';
                         <label for="name">Your Full Name</label>
                         <input id="name" class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Eg: John" name="name" required>
                     </div>
-                    <div class="col-12 col-md-6 pl-md-4 mt-2 mt-md-0">
+                    <div class="col-12 col-md-6 pl-md-4 mt-3 mt-md-0">
                         <label for="phone">Your Contact Number</label>
                         <input id="phone" class="form-control rounded-0 bg-white" type="tel" placeholder="Eg: 0400 000 000" name="phone" required>
                     </div>
-                    <div class="col-12 col-md-6 pr-md-4 mt-2 mt-md-4">
+                    <div class="col-12 col-md-6 pr-md-4 mt-3 mt-md-4">
                         <label for="email">Your Email Address</label>
                         <input id="email" class="form-control rounded-0 bg-white" type="email" placeholder="Eg: example@email.com.au" name="email" required>
                     </div>
-                    <div class="col-12 col-md-6 pl-md-4 mt-2 mt-md-4">
+                    <div class="col-12 col-md-6 pl-md-4 mt-3 mt-md-4">
                         <label for="date">Preferred Date</label>
                         <input id="date" class="form-control rounded-0 bg-white" type="date" placeholder="Eg: example@email.com.au" name="date" required>
                     </div>
-                    <div class="col-12 mt-2 mt-md-4">
+                    <div class="col-12 mt-3 mt-md-4">
                         <label for="service">Service Required</label>
                         <select name="service" class="form-control rounded-0 bg-white" required>
                             <option value="" disabled selected>Choose an option</option>
@@ -231,18 +231,18 @@ include __DIR__ . '/header.php';
                         </svg>
 
                     </div>
-                    <div class="col-12 col-lg-4 pt-3 pb-4 py-lg-0">
+                    <div class="col col-lg-4 pt-3 pb-4 py-lg-0">
                         <div class="h16 fw-800 text-black">Your privacy is our priority.</div>
                         <div class="text-black h17 fw-500">All information will be kept 100% private
                             &amp; secure
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-6 col-lg-3">
                         <button type="submit" class="btn btn-primary text-black form-control rounded-0 h19 fw-800">
                             Submit
                         </button>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-6 col-lg-3">
                         <a href="tel: <?= $phone_number ?>" class="btn btn-black text-white form-control rounded-0 h19 fw-800 d-flex align-items-center justify-content-center">
                             Call Us Now
                         </a>
